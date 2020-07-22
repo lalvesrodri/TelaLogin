@@ -30,3 +30,7 @@ body {
 button:hover {
   background: red;
 }
+.login a {
+  display: flex;
+  justify-content: center;
+}

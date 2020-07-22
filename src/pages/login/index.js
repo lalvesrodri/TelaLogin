@@ -10,7 +10,7 @@ class Login extends Component {
           <input type="text" id="login" placeholder="login" />
           <input type="text" id="senha" placeholder="senha" />
         </forms>
-        <a href="../home/index">
+        <a href="/home">
           <button>Entrar</button>
         </a>
       </div>

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./style.css";
 import Login from "../login/index";
+import { Link } from "react-router-dom";
 
 class Home extends Component {
   render() {
@@ -14,8 +15,8 @@ class Home extends Component {
             padding: "20px",
           }}
         >
-          <div class="Instagram">
-            <a>Fluxo</a>
+          <div class="Fluxo">
+            <Link to={{ pathname: "#" }}>Fluxo</Link>
           </div>
           <forms class="buscar">
             <div>
@@ -23,8 +24,10 @@ class Home extends Component {
             </div>
           </forms>
           <div class="logo">
-            <a>meu perfil</a>
-            <a>carrinho de compras</a>
+            <Link to={{ pathname: "#" }}>Amigos</Link>
+            <Link to={{ pathname: "#" }}>Perfil</Link>
+            <Link to={{ pathname: "#" }}>Vendas</Link>
+            <Link to={{ pathname: "#" }}>Carrinho</Link>
           </div>
         </header>
       </>
