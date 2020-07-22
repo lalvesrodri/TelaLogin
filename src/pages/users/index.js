@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import "./style.css";
-import Home from "../home/index";
 
-class Login extends Component {
+class User extends Component {
   render() {
     return (
       <div className="login">
@@ -10,12 +9,9 @@ class Login extends Component {
           <input type="text" id="login" placeholder="login" />
           <input type="text" id="senha" placeholder="senha" />
         </forms>
-        <a href="../home/index">
-          <button>Entrar</button>
-        </a>
+        <a href="/home">Entar</a>
       </div>
     );
   }
 }
-
-export default Login;
+export default User;
