@@ -11,6 +11,7 @@ class Rota extends React.Component {
         <Switch>
           <Router exact path="./" Component={Login} />
           <Router exact path="./home" Component={Home} />
+          <Router exact path="./users" Component={Home} />
         </Switch>
       </BrowserRouter>
     );
