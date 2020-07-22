@@ -24,7 +24,7 @@ class Home extends Component {
             </div>
           </forms>
           <div class="logo">
-            <Link to={{ pathname: "#" }}>Amigos</Link>
+            <Link to={{ pathname: "/friends" }}>Amigos</Link>
             <Link to={{ pathname: "/myprofile" }}>Perfil</Link>
             <Link to={{ pathname: "/sell" }}>Vendas</Link>
             <Link to={{ pathname: "/carrinho" }}>Carrinho</Link>

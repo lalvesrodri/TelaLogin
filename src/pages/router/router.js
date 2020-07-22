@@ -6,6 +6,7 @@ import Home from "../home/index";
 import Perfil from "../perfil/meuperfil";
 import Sell from "../sell/index";
 import Carrinho from "../carrinho/index";
+import Users from "../amigos/users";
 
 class Rota extends React.Component {
   render() {
@@ -17,6 +18,7 @@ class Rota extends React.Component {
           <Route exact path="/myprofile" component={Perfil} />
           <Route exact path="/sell" component={Sell} />
           <Route exact path="/carrinho" component={Carrinho} />
+          <Route exact path="/friends" component={Users} />
         </Switch>
       </BrowserRouter>
     );

@@ -1,6 +1,8 @@
 import React, { Component } from "react";
+import "./style.css";
+import { Link } from "react-router-dom";
 
-import UserCard from "../../components/UserCard";
+import UserCard from "../../components/UserCard/index";
 
 class Users extends Component {
   render() {
@@ -60,10 +62,11 @@ class Users extends Component {
     const listUsers = users.map((user) => (
       <UserCard key={user.id.toString()} data={user} />
     ));
+
     return (
       <div>
         <div>
-          <h1>Users</h1>
+          <UserCard />
         </div>
         {listUsers}
       </div>
