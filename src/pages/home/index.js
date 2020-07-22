@@ -3,6 +3,7 @@ import "./style.css";
 import Login from "../login/index";
 import { Link } from "react-router-dom";
 
+import Postagem from "../../components/Postagem/index";
 class Home extends Component {
   render() {
     return (
@@ -30,6 +31,11 @@ class Home extends Component {
             <Link to={{ pathname: "/carrinho" }}>Carrinho</Link>
           </div>
         </header>
+        <div>
+          <Postagem />
+          <Postagem />
+          <Postagem />
+        </div>
       </>
     );
   }
