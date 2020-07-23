@@ -6,6 +6,7 @@ import Users from "../../pages/amigos/users";
 
 class UserCard extends React.Component {
   render() {
+    //console.log(this.props.user);
     return (
       //<Link to={`/details/${this.props.data.nome}/${this.props.data.email}`}>
       <div className="card-container">

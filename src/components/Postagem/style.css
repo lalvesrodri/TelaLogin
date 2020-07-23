@@ -12,6 +12,13 @@
   margin-bottom: 30px;
   margin-left: 35%;
 }
+.titulo {
+  display: flex;
+  list-style-type: none;
+}
+.titulo li {
+  padding: 10px;
+}
 
 .user-picture {
   height: 100px;

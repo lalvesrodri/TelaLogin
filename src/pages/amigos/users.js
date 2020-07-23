@@ -59,9 +59,7 @@ class Users extends Component {
       },
     ];
 
-    const listUsers = users.map((user) => (
-      <UserCard key={user.id.toString()} data={user} />
-    ));
+    const listUsers = users.map((user) => <UserCard data={user} />);
 
     return (
       <div>
