@@ -1,8 +1,9 @@
 import React from "react";
+import "./style.css";
 
 class myprofile extends React.Component {
   render() {
-    return <div>Meu Perfil</div>;
+    return <div className="meu-perfil">Meu Perfil</div>;
   }
 }
 
