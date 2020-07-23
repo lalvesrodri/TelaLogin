@@ -16,8 +16,8 @@ class Postagem extends React.Component {
             <img src={perfil} width="30" />{" "}
           </li>
           <li>FLUXO</li>
-          <div className="Postagem" width="150">
-            <img src={Foto} />
+          <div className="Postagem">
+            <img src={Foto} width="150" />
           </div>
           <img
           //className="user-picture"
