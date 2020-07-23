@@ -1,8 +1,9 @@
 import React from "react";
+import "./style.css";
 
 class Carrinho extends React.Component {
   render() {
-    return <div>Meu Perfil</div>;
+    return <div className="compras">Compras</div>;
   }
 }
 
